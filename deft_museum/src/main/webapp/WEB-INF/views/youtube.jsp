@@ -307,7 +307,7 @@
 		                        </em>
 								<i class="youtube_img"><sup style="background-image:URL(//img.youtube.com/vi/9qoEV4B9ZEs/sddefault.jpg);"></sup>
 									<sub>
-										<img src="http://sir.pureblack.websiting.kr/theme/pureblack/plugin/websiting/imageSpacer.php?w=600&amp;h=338" alt="youtube image spacer" title="">
+										<img src="" alt="youtube image spacer" title="">
 									
 									</sub>
 								</i>
