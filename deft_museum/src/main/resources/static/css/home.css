@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html, body {
+	background: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	display: flex;
+	flex:1;
+	justify-content: center;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+

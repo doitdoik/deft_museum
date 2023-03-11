@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.div_gallery{
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	width: 100%;
+}
+
+.div_gallery:hover{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.img_cover{
+	visibility: hidden;
+}
+
+h2{
+	color: white;
+}
