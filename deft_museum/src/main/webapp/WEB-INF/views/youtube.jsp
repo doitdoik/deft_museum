@@ -273,13 +273,13 @@
 				<div class="gall_box">
 		            <div class="gall_con">
 		            	<div class="gall_boxa">
-		                	<a href="http://sir.pureblack.websiting.kr/youtube/16">
+		                	<a href="">
 								<em class="iconPs bo_tit">
 		                            <i class="fa fa-youtube-play fts13px"></i> 													
 		                        </em>
 								<i class="youtube_img"><sup style="background-image:URL(//img.youtube.com/vi/-XIIrM_pMcE/sddefault.jpg);"></sup>
 									<sub>
-										<img src="http://sir.pureblack.websiting.kr/theme/pureblack/plugin/websiting/imageSpacer.php?w=600&amp;h=338" alt="youtube image spacer" title="">
+										<img src="" width="600" height="338"  alt="youtube image spacer" title="">
 									
 									</sub>
 								</i>
@@ -289,7 +289,7 @@
 		                    </a>
 		                </div>
 		                <div class="gall_text_href">
-							<a href="http://sir.pureblack.websiting.kr/youtube/16" class="bo_tit">
+							<a href="" class="bo_tit">
 		                            유튜브 - 어쩔데프트                      
 							</a>
 						</div>
@@ -301,13 +301,13 @@
 				<div class="gall_box">
 		            <div class="gall_con">
 		            	<div class="gall_boxa">
-		                	<a href="http://sir.pureblack.websiting.kr/youtube/16">
+		                	<a href="">
 								<em class="iconPs bo_tit">
 		                            <i class="fa fa-youtube-play fts13px"></i> 													
 		                        </em>
 								<i class="youtube_img"><sup style="background-image:URL(//img.youtube.com/vi/9qoEV4B9ZEs/sddefault.jpg);"></sup>
 									<sub>
-										<img src="" alt="youtube image spacer" title="">
+										<img src="" width="600" height="338"  alt="youtube image spacer" title="">
 									
 									</sub>
 								</i>
@@ -317,7 +317,7 @@
 		                    </a>
 		                </div>
 		                <div class="gall_text_href">
-							<a href="http://sir.pureblack.websiting.kr/youtube/16" class="bo_tit">
+							<a href="" class="bo_tit">
 		                            유튜브 - 데프트와 알파카 그 사이 Deft                 
 							</a>
 						</div>
@@ -329,13 +329,13 @@
 				<div class="gall_box">
 		            <div class="gall_con">
 		            	<div class="gall_boxa">
-		                	<a href="http://sir.pureblack.websiting.kr/youtube/16">
+		                	<a href="">
 								<em class="iconPs bo_tit">
 		                            <i class="fa fa-youtube-play fts13px"></i> 													
 		                        </em>
 								<i class="youtube_img"><sup style="background-image:URL(//img.youtube.com/vi/sW9hGf3QhPU/sddefault.jpg);" ></sup>
 									<sub>
-										<img src="http://sir.pureblack.websiting.kr/theme/pureblack/plugin/websiting/imageSpacer.php?w=600&amp;h=338" alt="youtube image spacer" title="">
+										<img src="" width="600" height="338"  alt="youtube image spacer" title="">
 									
 									</sub>
 								</i>
@@ -345,7 +345,7 @@
 		                    </a>
 		                </div>
 		                <div class="gall_text_href">
-							<a href="http://sir.pureblack.websiting.kr/youtube/16" class="bo_tit">
+							<a href="" class="bo_tit">
 		                            유튜브 - 데프트 저장소                    
 							</a>
 						</div>
@@ -357,13 +357,13 @@
 				<div class="gall_box">
 		            <div class="gall_con">
 		            	<div class="gall_boxa">
-		                	<a href="http://sir.pureblack.websiting.kr/youtube/16">
+		                	<a href="">
 								<em class="iconPs bo_tit">
 		                            <i class="fa fa-youtube-play fts13px"></i> 													
 		                        </em>
 								<i class="youtube_img"><sup style="background-image:URL(//img.youtube.com/vi/Hsrqpaz077k/sddefault.jpg);" ></sup>
 									<sub>
-										<img src="http://sir.pureblack.websiting.kr/theme/pureblack/plugin/websiting/imageSpacer.php?w=600&amp;h=338" alt="youtube image spacer" title="">
+										<img src="" width="600" height="338"  alt="youtube image spacer" title="">
 									
 									</sub>
 								</i>
@@ -373,7 +373,7 @@
 		                    </a>
 		                </div>
 		                <div class="gall_text_href">
-							<a href="http://sir.pureblack.websiting.kr/youtube/16" class="bo_tit">
+							<a href="" class="bo_tit">
 		                            유튜브 - Deflix 뎊플릭스                   
 							</a>
 						</div>
@@ -385,13 +385,13 @@
 				<div class="gall_box">
 		            <div class="gall_con">
 		            	<div class="gall_boxa">
-		                	<a href="http://sir.pureblack.websiting.kr/youtube/16">
+		                	<a href="">
 								<em class="iconPs bo_tit">
 		                            <i class="fa fa-youtube-play fts13px"></i> 													
 		                        </em>
 								<i class="youtube_img"><sup style="background-image:URL(//img.youtube.com/vi/o9gJB4KADU0/sddefault.jpg);" ></sup>
 									<sub>
-										<img src="http://sir.pureblack.websiting.kr/theme/pureblack/plugin/websiting/imageSpacer.php?w=600&amp;h=338" alt="youtube image spacer" title="">
+										<img src="" width="600" height="338"  alt="youtube image spacer" title="">
 									
 									</sub>
 								</i>
@@ -401,7 +401,7 @@
 		                    </a>
 		                </div>
 		                <div class="gall_text_href">
-							<a href="http://sir.pureblack.websiting.kr/youtube/16" class="bo_tit">
+							<a href="" class="bo_tit">
 		                            유튜브 - 알파카이브 alpachive                   
 							</a>
 						</div>
@@ -413,13 +413,13 @@
 				<div class="gall_box">
 		            <div class="gall_con">
 		            	<div class="gall_boxa">
-		                	<a href="http://sir.pureblack.websiting.kr/youtube/16">
+		                	<a href="">
 								<em class="iconPs bo_tit">
 		                            <i class="fa fa-youtube-play fts13px"></i> 													
 		                        </em>
 								<i class="youtube_img"><sup style="background-image:URL(//img.youtube.com/vi/0zfBfaY-lRw/sddefault.jpg);" ></sup>
 									<sub>
-										<img src="http://sir.pureblack.websiting.kr/theme/pureblack/plugin/websiting/imageSpacer.php?w=600&amp;h=338" alt="youtube image spacer" title="">
+										<img src="" width="600" height="338" alt="youtube image spacer" title="">
 									
 									</sub>
 								</i>
@@ -429,7 +429,7 @@
 		                    </a>
 		                </div>
 		                <div class="gall_text_href">
-							<a href="http://sir.pureblack.websiting.kr/youtube/16" class="bo_tit">
+							<a href="" class="bo_tit">
 		                            유튜브 LCK                    
 							</a>
 						</div>
