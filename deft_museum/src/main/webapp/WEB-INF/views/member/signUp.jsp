@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원가입</title>
 <link type="text/css" rel="stylesheet"	href="static/css/member.css">
 <script src="static/js/member.js"></script>
 </head>

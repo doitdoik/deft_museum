@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>로그인</title>
 <link type="text/css" rel="stylesheet"	href="static/css/member.css">
 </head>
 <body class="text-center">
