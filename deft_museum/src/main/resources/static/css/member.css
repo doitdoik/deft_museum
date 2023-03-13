@@ -41,6 +41,10 @@ body {
   border-top-right-radius: 0;
 }
 
+#id{
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
 
 .bd-placeholder-img {
         font-size: 1.125rem;

@@ -15,15 +15,15 @@
     <h1 class="h3 mb-3 fw-normal text-white">Please sign up</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control" id="id" value="test1">
+      <input type="text" class="form-control" id="id" placeholder="ID">
       <label for="floatingInput">ID</label>
     </div>
     <div class="form-floating">
-      <input type="email" class="form-control input_center" id="mail" value="test@abc.com">
+      <input type="email" class="form-control input_center" id="mail" placeholder="Email">
       <label for="floatingInput">Email address</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control input_center" id="pw" value="1234" >
+      <input type="password" class="form-control input_center" id="pw" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
     <div class="form-floating">
