@@ -116,6 +116,10 @@ public class MainController {
 	@RequestMapping(value="/galleryWrite", method = RequestMethod.POST)
 	public void galleryWritePost(HttpServletRequest request) {
 		System.out.println(request.getParameter("gallName").toString());
+		System.out.println(request.getParameter("gallFile").toString());
+		System.out.println(request.getParameter("gallWriter").toString());
+		System.out.println(request.getParameter("gallPw").toString());
+		System.out.println(request.getParameter("gallCon").toString());
 		System.out.println("오긴오니??");
 	}
 }

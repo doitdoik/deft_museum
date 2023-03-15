@@ -69,14 +69,17 @@ dt{
 	color: white;
 }
 
-.title, .info {
+.title, .info, .file {
     padding: 15px;
 }
 
-.info {
+.info, .file {
     border-top: 1px dashed #ddd;
-    border-bottom: 1px solid #000;
     font-size: 0;
+}
+
+.file {
+	color: #fff;
 }
 
 .board_write .title dl {
@@ -141,18 +144,24 @@ input {
 	                        <dd><input type="text" id="gallName" name="gallName" class="title_input" placeholder="제목 입력"></dd>
 	                    </dl>
 	                </div>
+	                <div class="file">
+	                    <dl>
+	                        <dt>파일</dt>
+	                        <dd><input type="file" id="gallFile" name="gallFile" class="title_input"></dd>
+	                    </dl>
+	                </div>
 	                <div class="info">
 	                    <dl>
 	                        <dt>글쓴이</dt>
-	                        <dd><input type="text" id="gallWriter" placeholder="글쓴이 입력"></dd>
+	                        <dd><input type="text" id="gallWriter" name="gallWriter" placeholder="글쓴이 입력"></dd>
 	                    </dl>
 	                    <dl>
 	                        <dt>비밀번호</dt>
-	                        <dd><input type="password" id="gallPw" placeholder="비밀번호 입력"></dd>
+	                        <dd><input type="password" id="gallPw" name="gallPw" placeholder="비밀번호 입력"></dd>
 	                    </dl>
 	                </div>
 	                <div class="cont">
-	                    <textarea id="gallCon" placeholder="내용 입력"></textarea>
+	                    <textarea id="gallCon" name="gallCon" placeholder="내용 입력"></textarea>
 	                </div>
 	            </div>
 	            <input type="submit" value="등록">
