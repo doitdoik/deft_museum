@@ -9,4 +9,8 @@
 		INSERT INTO member(idx, id, pw, mail, auth)
 		VALUES(null, #{id}, #{pw}, #{mail}, #{auth});
 	</insert>
+	
+	<select id="getGallery" resultType="GalleryVO">
+		SELECT * FROM gallery;
+	</select>
 </mapper>
