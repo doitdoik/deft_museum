@@ -107,7 +107,7 @@ public class MainController {
 		model.addAttribute("view", "board.jsp");
 		return "home";
 	}
-
+// 갤러리 작성 get
 	@RequestMapping(value="/galleryWrite", method = RequestMethod.GET)
 	public String galleryWrite(Model model) {
 		model.addAttribute("data1", "qwer1234");
