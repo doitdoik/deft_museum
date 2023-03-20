@@ -71,6 +71,7 @@ public class MainController {
 		model.addAttribute("view", "member/signUp.jsp");
 		return "home";
 	}
+//	회원가입 post
 	@ResponseBody
 	@RequestMapping(value = "/signUp", method = RequestMethod.POST)
 	public void signUpPost(@RequestParam Map<String, Object> param) {
@@ -111,7 +112,7 @@ public class MainController {
 		model.addAttribute("view", "gallery/write.jsp");
 		return "home";
 	}
-
+//	갤러리 작성 post
 	@ResponseBody
 	@RequestMapping(value="/galleryWrite", method = RequestMethod.POST)
 	public void galleryWritePost(HttpServletRequest request) {
