@@ -25,6 +25,7 @@ public class MainController {
 	@Autowired
 	MainService mainService;
 
+// 메인 get	
 	@RequestMapping("/")
 	public String home(Model model) {
 
@@ -51,13 +52,14 @@ public class MainController {
 		return "home";
 	}
 
+// 갤러리 get	
 	@RequestMapping("/gallery")
 	public String gallery(Model model) {
 		model.addAttribute("data1", "qwer1234");
 		model.addAttribute("view", "gallery.jsp");
 		return "home";
 	}
-
+// 유튜브 get
 	@RequestMapping("/youtube")
 	public String youtube(Model model) {
 		model.addAttribute("data1", "qwer1234");
