@@ -117,12 +117,17 @@ public class MainController {
 //	갤러리 작성 post
 	@ResponseBody
 	@RequestMapping(value="/galleryWrite", method = RequestMethod.POST)
-	public void galleryWritePost(HttpServletRequest request) {
+	public void galleryWritePost(HttpServletRequest request, Model model) {
 		System.out.println(request.getParameter("gallName").toString());
 		System.out.println(request.getParameter("gallFile").toString());
 		System.out.println(request.getParameter("gallWriter").toString());
 		System.out.println(request.getParameter("gallPw").toString());
 		System.out.println(request.getParameter("gallCon").toString());
 		System.out.println("오긴오니??");
+		try {
+			mainService.insertGallery(request);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
 	}
 }

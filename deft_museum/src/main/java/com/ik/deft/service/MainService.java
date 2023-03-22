@@ -3,6 +3,8 @@ package com.ik.deft.service;
 import java.util.List;
 import java.util.Map;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -27,7 +29,7 @@ public class MainService {
     public MemberVO getMem(int idx) {
     	return mapper.getMem(idx);
     }
-    
+//    회원가입 post 
     public Map<String, Object> insertMember(Map<String, Object> param) {
     	System.out.println("service@@@@@@@@@@@@@@@@");
     	System.out.println(param);
@@ -39,4 +41,12 @@ public class MainService {
 			return param;
 		}
     }
+    
+//    갤러리 post
+    public HttpServletRequest insertGallery(HttpServletRequest request) {
+    	System.out.println("service@@@@@@@@@@@@@@@@@@@@@@@@");
+    	System.out.println(request.getParameter("gallName"));
+    	return request;
+    }
+    
 }
