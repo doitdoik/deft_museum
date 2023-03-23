@@ -13,4 +13,9 @@
 	<select id="getGallery" resultType="GalleryVO">
 		SELECT * FROM gallery;
 	</select>
+	
+	<insert id="setGallery">
+		INSERT INTO gallery(idx, name, id, pw, src, comment)
+		VALUES(null, #{name}, #{id}, #{pw}, #{src}, #{comment});
+	</insert>
 </mapper>
