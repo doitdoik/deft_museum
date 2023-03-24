@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.ik.deft.dto.GalleryVO;
 import com.ik.deft.dto.MemberVO;
 
 
@@ -48,5 +49,14 @@ public class MainService {
     	System.out.println(request.getParameter("gallName"));
     	return request;
     }
+    
+    public List<GalleryVO> getGallery(){
+    	try {
+    		return mapper.getGallery();
+    	}catch(Exception e) {
+    		e.printStackTrace();
+    		return null;
+    	}
+}    
     
 }
