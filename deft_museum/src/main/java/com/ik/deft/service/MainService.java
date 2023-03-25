@@ -46,7 +46,7 @@ public class MainService {
     
 //    갤러리 post
     public HttpServletRequest insertGallery(HttpServletRequest request) {
-    	System.out.println("service@@@@@@@@@@@@@@@@@@@@@@@@");
+    	System.out.println("service@@@@@@@@@@@@@@@@@@@@@");
     	System.out.println(request.getParameter("gallName"));
     	return request;
     }
