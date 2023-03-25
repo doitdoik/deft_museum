@@ -18,6 +18,7 @@ public class MainService {
 	@Autowired
     MainMapper mapper;
 
+//	회원 get
     public List<MemberVO> getMember(){
 	    	try {
 	    		return mapper.getMember();
@@ -50,6 +51,7 @@ public class MainService {
     	return request;
     }
     
+//    갤러리 get
     public List<GalleryVO> getGallery(){
     	try {
     		return mapper.getGallery();
