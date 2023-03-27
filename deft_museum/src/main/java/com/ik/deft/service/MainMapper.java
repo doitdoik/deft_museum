@@ -11,9 +11,9 @@ import com.ik.deft.dto.MemberVO;
 @Mapper
 public interface MainMapper {
 
-//	회원 list
 	MemberVO getMem(int idx);
 
+//	회원 list
 	List<MemberVO> getMember() throws Exception;
 	
 	Map<String, Object> setMember(Map<String, Object> param);
