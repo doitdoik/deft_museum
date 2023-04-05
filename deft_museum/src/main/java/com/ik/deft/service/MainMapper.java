@@ -16,6 +16,7 @@ public interface MainMapper {
 //	회원 list
 	List<MemberVO> getMember() throws Exception;
 	
+//	회원가입
 	Map<String, Object> setMember(Map<String, Object> param);
 	
 //	갤러리 list
