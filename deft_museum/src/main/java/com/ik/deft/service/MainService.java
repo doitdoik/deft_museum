@@ -45,10 +45,10 @@ public class MainService {
     }
     
 //    갤러리 post
-    public HttpServletRequest insertGallery(HttpServletRequest request) {
+    public Map<String, Object> insertGallery(Map<String, Object> param) {
     	System.out.println("service@@@@@@@@@@@@@@@@@@@@@");
-    	System.out.println(request.getParameter("gallName"));
-    	return request;
+    	System.out.println(param);
+    	return mapper.setGallery(param);
     }
     
 //    갤러리 get

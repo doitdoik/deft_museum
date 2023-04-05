@@ -117,15 +117,20 @@ public class MainController {
 //	갤러리 작성 post
 	@ResponseBody
 	@RequestMapping(value="/galleryWrite", method = RequestMethod.POST)
-	public void galleryWritePost(HttpServletRequest request, Model model) {
+	public void galleryWritePost(HttpServletRequest request, Model model, Map<String, Object> map) {
 		System.out.println(request.getParameter("gallName").toString());
 		System.out.println(request.getParameter("gallFile").toString());
 		System.out.println(request.getParameter("gallWriter").toString());
 		System.out.println(request.getParameter("gallPw").toString());
 		System.out.println(request.getParameter("gallCon").toString());
+		map.put("name", request.getParameter("gallName").toString());
+		map.put("src", request.getParameter("gallFile").toString());
+		map.put("writer", request.getParameter("gallWriter").toString());
+		map.put("pw", request.getParameter("gallPw").toString());
+		map.put("comment", request.getParameter("gallCon").toString());
 		System.out.println("오긴오니??");
 		try {
-			mainService.insertGallery(request);
+			mainService.insertGallery(map);
 		} catch (Exception e) {
 			// TODO: handle exception
 		}

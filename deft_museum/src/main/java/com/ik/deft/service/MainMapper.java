@@ -3,6 +3,8 @@ package com.ik.deft.service;
 import java.util.List;
 import java.util.Map;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.ibatis.annotations.Mapper;
 
 import com.ik.deft.dto.GalleryVO;
@@ -21,4 +23,6 @@ public interface MainMapper {
 	
 //	갤러리 list
 	List<GalleryVO> getGallery() throws Exception;
+	
+	Map<String, Object> setGallery(Map<String, Object> param);
 }
