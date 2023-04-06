@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.ik.deft.dto.GalleryVO;
 import com.ik.deft.dto.MemberVO;
 import com.ik.deft.service.MainService;
 
@@ -39,14 +40,6 @@ public class MainController {
 		 System.out.println("mem id = "+memList.get(i).getId());
 		 }
 		 
-
-		/*
-		 * List<MemberVO> memList = new ArrayList<>(); memList =
-		 * mainService.getMember();
-		 * 
-		 * System.out.println("mem id = "+memList.get(0).getId());
-		 */
-		 
 		model.addAttribute("data1", "qwer1234");
 		model.addAttribute("view", "main.jsp");
 		return "home";
@@ -55,10 +48,18 @@ public class MainController {
 // 갤러리 get	
 	@RequestMapping("/gallery")
 	public String gallery(Model model) {
+		
+		 List<GalleryVO> memList = new ArrayList<GalleryVO>(); 
+		 memList = mainService.getGallery();
+		 
+		 for(int i=0; i<memList.size(); i++) {
+		 System.out.println("gall name = "+memList.get(i).getName());
+		 }
 		model.addAttribute("data1", "qwer1234");
 		model.addAttribute("view", "gallery.jsp");
 		return "home";
 	}
+	
 // 유튜브 get
 	@RequestMapping("/youtube")
 	public String youtube(Model model) {
@@ -67,12 +68,14 @@ public class MainController {
 		return "home";
 	}
 
+// 회원가입 get	
 	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
 	public String signUp(Model model) {
 		model.addAttribute("data1", "qwer1234");
 		model.addAttribute("view", "member/signUp.jsp");
 		return "home";
 	}
+	
 //	회원가입 post
 	@ResponseBody
 	@RequestMapping(value = "/signUp", method = RequestMethod.POST)
@@ -94,6 +97,7 @@ public class MainController {
 		 */
 	}
 
+// 로그인 get	
 	@RequestMapping("/signIn")
 	public String signIn(Model model) {
 		model.addAttribute("data1", "qwer1234");
@@ -101,19 +105,23 @@ public class MainController {
 		return "home";
 	}
 
+// 게시판 get	
 	@RequestMapping("/board")
 	public String board(Model model) {
 		model.addAttribute("data1", "qwer1234");
 		model.addAttribute("view", "board.jsp");
 		return "home";
 	}
+	
 // 갤러리 작성 get
 	@RequestMapping(value="/galleryWrite", method = RequestMethod.GET)
 	public String galleryWrite(Model model) {
+		
 		model.addAttribute("data1", "qwer1234");
 		model.addAttribute("view", "gallery/write.jsp");
 		return "home";
 	}
+	
 //	갤러리 작성 post
 	@ResponseBody
 	@RequestMapping(value="/galleryWrite", method = RequestMethod.POST)

@@ -48,7 +48,12 @@ public class MainService {
     public Map<String, Object> insertGallery(Map<String, Object> param) {
     	System.out.println("service@@@@@@@@@@@@@@@@@@@@@");
     	System.out.println(param);
-    	return mapper.setGallery(param);
+    	try {
+    		return mapper.setGallery(param);
+		} catch (Exception e) {
+			// TODO: handle exception
+			return param;
+		}
     }
     
 //    갤러리 get
@@ -59,6 +64,6 @@ public class MainService {
     		e.printStackTrace();
     		return null;
     	}
-}    
+    }    
     
 }

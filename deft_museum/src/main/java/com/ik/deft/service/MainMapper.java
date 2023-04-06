@@ -18,11 +18,12 @@ public interface MainMapper {
 //	회원 list
 	List<MemberVO> getMember() throws Exception;
 	
-//	회원가입
+//	회원가입 post
 	Map<String, Object> setMember(Map<String, Object> param);
 	
 //	갤러리 list
 	List<GalleryVO> getGallery() throws Exception;
 	
+//	갤러리 작성 post
 	Map<String, Object> setGallery(Map<String, Object> param);
 }
