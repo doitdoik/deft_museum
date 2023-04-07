@@ -14,7 +14,6 @@
             <h2>갤러리</h2>
             <p>데프트선수의 사진 갤러리입니다..</p>
             <button onclick="location.href='galleryWrite'">Write</button>
-        </div>	
         <table>
         	<thead>
 	        	<th>name</th>
@@ -23,11 +22,12 @@
         	<tbody>
         		<c:forEach var="item" items="${gallery}">
         			<tr>
-        				
+        				<td>${item.name}</td>	
         			</tr>
         		</c:forEach>
         	</tbody>
         </table>
+        </div>	
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">

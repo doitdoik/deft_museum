@@ -49,13 +49,13 @@ public class MainController {
 	@RequestMapping("/gallery")
 	public String gallery(Model model) {
 		
-		 List<GalleryVO> memList = new ArrayList<GalleryVO>(); 
-		 memList = mainService.getGallery();
+		 List<GalleryVO> galleryList = new ArrayList<GalleryVO>(); 
+		 galleryList = mainService.getGallery();
 		 
-		 for(int i=0; i<memList.size(); i++) {
-		 System.out.println("gall name = "+memList.get(i).getName());
+		 for(int i=0; i<galleryList.size(); i++) {
+		 System.out.println("gall name = "+galleryList.get(i).getName());
 		 }
-		model.addAttribute("data1", "qwer1234");
+		model.addAttribute("gallery", galleryList);
 		model.addAttribute("view", "gallery.jsp");
 		return "home";
 	}
