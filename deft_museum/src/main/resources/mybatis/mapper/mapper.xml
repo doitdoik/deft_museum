@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ik.deft.service.MainMapper">
-	<select id="getMember" resultType="MemberVO">
+	<select id="getMember" resultType="MemberDTO">
 		SELECT * FROM member;
 	</select>
 	
@@ -10,7 +10,7 @@
 		VALUES(null, #{id}, #{pw}, #{mail}, #{auth});
 	</insert>
 	
-	<select id="getGallery" resultType="GalleryVO">
+	<select id="getGallery" resultType="GalleryDTO">
 		SELECT * FROM gallery;
 	</select>
 	

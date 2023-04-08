@@ -3,7 +3,7 @@ package com.ik.deft.dto;
 import lombok.Data;
 
 @Data
-public class GalleryVO {
+public class GalleryDTO {
 	private int idx;
 	private String name;
 	private String id;

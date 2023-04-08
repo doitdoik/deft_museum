@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.ik.deft.dto.GalleryVO;
-import com.ik.deft.dto.MemberVO;
+import com.ik.deft.dto.GalleryDTO;
+import com.ik.deft.dto.MemberDTO;
 import com.ik.deft.service.MainService;
 
 @Controller
@@ -33,7 +33,7 @@ public class MainController {
 		System.out.println("컨트롤러@@@@@@@@@@@@@@@@@@@@");
 
 		
-		 List<MemberVO> memList = new ArrayList<MemberVO>(); 
+		 List<MemberDTO> memList = new ArrayList<MemberDTO>(); 
 		 memList = mainService.getMember();
 		 
 		 for(int i=0; i<memList.size(); i++) {
@@ -49,7 +49,7 @@ public class MainController {
 	@RequestMapping("/gallery")
 	public String gallery(Model model) {
 		
-		 List<GalleryVO> galleryList = new ArrayList<GalleryVO>(); 
+		 List<GalleryDTO> galleryList = new ArrayList<GalleryDTO>(); 
 		 galleryList = mainService.getGallery();
 		 
 		 for(int i=0; i<galleryList.size(); i++) {

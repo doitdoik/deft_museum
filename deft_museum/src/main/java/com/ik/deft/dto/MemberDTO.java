@@ -3,7 +3,7 @@ package com.ik.deft.dto;
 import lombok.Data;
 
 @Data
-public class MemberVO
+public class MemberDTO
 {
 	private int idx;
 	private String id;

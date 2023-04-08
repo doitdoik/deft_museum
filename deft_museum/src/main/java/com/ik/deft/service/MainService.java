@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.ik.deft.dto.GalleryVO;
-import com.ik.deft.dto.MemberVO;
+import com.ik.deft.dto.GalleryDTO;
+import com.ik.deft.dto.MemberDTO;
 
 
 @Service("mainService")
@@ -19,7 +19,7 @@ public class MainService {
     MainMapper mapper;
 
 //	회원 get
-    public List<MemberVO> getMember(){
+    public List<MemberDTO> getMember(){
 	    	try {
 	    		return mapper.getMember();
 	    	}catch(Exception e) {
@@ -28,7 +28,7 @@ public class MainService {
 	    	}
 	}
 
-    public MemberVO getMem(int idx) {
+    public MemberDTO getMem(int idx) {
     	return mapper.getMem(idx);
     }
 //    회원가입 post 
@@ -57,7 +57,7 @@ public class MainService {
     }
     
 //    갤러리 get
-    public List<GalleryVO> getGallery(){
+    public List<GalleryDTO> getGallery(){
     	try {
     		return mapper.getGallery();
     	}catch(Exception e) {

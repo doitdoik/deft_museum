@@ -1,6 +1,6 @@
 package com.ik.deft.dto;
 
-public class FileVO {
+public class FileDTO {
 	private String uuid;
 	private String fileName;
 	private String fileSrc;;
