@@ -22,7 +22,20 @@
         	<tbody>
         		<c:forEach var="item" items="${gallery}">
         			<tr>
-        				<td>${item.name}</td>	
+					<div class="col">
+						<div class="card shadow-sm">
+							<div class="div_gallery" style="background:url(static/img/kt_deft_2.jpg);" onclick="location.href='#'">
+								<img class="img_cover" alt="" src="static/img/cover_black.jpg"  width="100%">
+							</div>
+							<div class="card-body">
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<small class="text-muted">${item.name}</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>        
         			</tr>
         		</c:forEach>
         	</tbody>
@@ -102,16 +115,15 @@
             </div>
           </div>
         </div>
-				<div class="col">
-					<div class="card shadow-sm">
-          				<div class="div_gallery" style="background:url(static/img/kt_deft_2.jpg);" onclick="location.href='#'">
-       				    	<img class="img_cover" alt="" src="static/img/cover_black.jpg"  width="100%">
-						</div>
-						<div class="card-body">
-							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
-									<small class="text-muted">원본 - flickr LoL Esports Photos</small>
-								</div>
+			<div class="col">
+				<div class="card shadow-sm">
+					<div class="div_gallery" style="background:url(static/img/kt_deft_2.jpg);" onclick="location.href='#'">
+						<img class="img_cover" alt="" src="static/img/cover_black.jpg"  width="100%">
+					</div>
+					<div class="card-body">
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<small class="text-muted">원본 - flickr LoL Esports Photos</small>
 							</div>
 						</div>
 					</div>
@@ -119,5 +131,6 @@
 			</div>
 		</div>
 	</div>
+</div>
 </body>
 </html>
