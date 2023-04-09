@@ -14,40 +14,39 @@
             <h2>갤러리</h2>
             <p>데프트선수의 사진 갤러리입니다..</p>
             <button onclick="location.href='galleryWrite'">Write</button>
-        <table>
+<!--         <table>
         	<thead>
 	        	<th>name</th>
 	        	<th>comment</th>
         	</thead>
         	<tbody>
-        		<c:forEach var="item" items="${gallery}">
-        			<tr>
-					<div class="col">
-						<div class="card shadow-sm">
-							<div class="div_gallery" style="background:url(static/img/kt_deft_2.jpg);" onclick="location.href='#'">
-								<img class="img_cover" alt="" src="static/img/cover_black.jpg"  width="100%">
-							</div>
-							<div class="card-body">
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<small class="text-muted">${item.name}</small>
-									</div>
+
+        	</tbody>
+        </table> -->
+        </div>	
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+       		<c:forEach var="item" items="${gallery}">
+				<div class="col">
+					<div class="card shadow-sm">
+						<div class="div_gallery" style="background:url(static/img/kt_deft_2.jpg);" onclick="location.href='#'">
+							<img class="img_cover" alt="" src="static/img/cover_black.jpg"  width="100%">
+						</div>
+						<div class="card-body">
+							<div class="d-flex justify-content-between align-items-center">
+								<div class="btn-group">
+									<small class="text-muted">${item.name}</small>
 								</div>
 							</div>
 						</div>
-					</div>        
-        			</tr>
-        		</c:forEach>
-        	</tbody>
-        </table>
-        </div>	
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
+					</div>
+				</div>    
+       		</c:forEach>      
+        <!-- <div class="col">
           <div class="card shadow-sm">
           			<div class="div_gallery" style="background:url(static/img/drx_deft_1.jpg);" onclick="location.href='#'">
        				    <img class="img_cover" alt="" src="static/img/cover_black.jpg"  width="100%">
        				</div>
-           <!--  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
             <div class="card-body">
                <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
@@ -128,7 +127,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>
