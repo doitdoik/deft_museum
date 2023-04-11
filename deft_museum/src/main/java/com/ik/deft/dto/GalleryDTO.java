@@ -6,10 +6,11 @@ import lombok.Data;
 public class GalleryDTO {
 	private int idx;
 	private String name;
-	private String id;
+	private String id; 
 	private String pw;
 	private String src;
 	private String comment;
+	private String filename;
 	
 	public int getIdx() {
 		return idx;
@@ -46,5 +47,11 @@ public class GalleryDTO {
 	}
 	public void setComment(String comment) {
 		this.comment = comment;
+	}
+	public String getFilename() {
+		return filename;
+	}
+	public void setFilename(String filename) {
+		this.filename = filename;
 	}
 }
