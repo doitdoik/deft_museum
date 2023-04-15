@@ -53,6 +53,34 @@
 								<em class="iconPs bo_tit">
 		                            <i class="fa fa-youtube-play fts13px"></i> 													
 		                        </em>
+								<i class="youtube_img"><sup style="background-image:URL(//img.youtube.com/vi/-XIIrM_pMcE/sddefault.jpg);"></sup>
+									<sub>
+										<img src="" width="600" height="338"  alt="youtube image spacer" title="">
+									
+									</sub>
+								</i>
+								<em class="gall_info">
+									<span class="sound_only">원본 출처 - 어쩔데프트</span>
+								</em>
+		                    </a>
+		                </div>
+		                <div class="gall_text_href">
+							<a href="" class="bo_tit">
+		                            유튜브 - 어쩔데프트                      
+							</a>
+						</div>
+					</div>
+				</div>
+			</li>
+			
+			<li class="gall_li col-gn-3 gallWST">
+				<div class="gall_box">
+		            <div class="gall_con">
+		            	<div class="gall_boxa">
+		                	<a href="">
+								<em class="iconPs bo_tit">
+		                            <i class="fa fa-youtube-play fts13px"></i> 													
+		                        </em>
 								<i class="youtube_img"><sup style="background-image:URL(//img.youtube.com/vi/9qoEV4B9ZEs/sddefault.jpg);"></sup>
 									<sub>
 										<img src="" width="600" height="338"  alt="youtube image spacer" title="">
