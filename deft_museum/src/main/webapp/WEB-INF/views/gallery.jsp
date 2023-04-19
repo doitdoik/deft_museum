@@ -12,7 +12,7 @@
     <div class="container">
 		<div class="board_title" style="color:white">
 	            <h2>갤러리</h2>
-	            <p>데프트선수의 사진 갤러리입니다..</p>
+	            <p>데프트선수의 사진 갤러리입니다.</p>
 	            <button onclick="location.href='galleryWrite'">Write</button>
 	
 		</div>	
